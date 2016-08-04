@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dt2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dt2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dt2.Livestock"
+            android:label="@string/title_activity_livestock" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.Remedy"
+            android:label="@string/title_activity_remedy" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.Purchases"
+            android:label="@string/title_activity_purchases" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.AddAnimal"
+            android:label="@string/title_activity_add_animal" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.SingleAnimal"
+            android:label="@string/title_activity_single_animal" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.AllAnimals"
+            android:label="@string/title_activity_all_animals" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.Standard"
+            android:label="@string/title_activity_standard" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.Variable"
+            android:label="@string/title_activity_variable" >
+        </activity>
+        <activity
+            android:name="com.example.dt2.Variable2"
+            android:label="@string/title_activity_variable2" >
+        </activity>
+    </application>
+
+</manifest>

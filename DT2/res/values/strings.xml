@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DT2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_livestock">Livestock</string>
+    <string name="title_activity_remedy">Remedy</string>
+    <string name="title_activity_purchases">Purchases</string>
+    <string name="title_activity_add_animal">AddAnimal</string>
+    <string name="title_activity_single_animal">SingleAnimal</string>
+    <string name="title_activity_all_animals">AllAnimals</string>
+    <string name="title_activity_standard">Standard</string>
+    <string name="title_activity_variable">Variable</string>
+    <string name="title_activity_variable2">Variable2</string>
+
+</resources>
